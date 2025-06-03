@@ -18,8 +18,21 @@ header {
     text-align: center;
 }
 
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 header .logo h1 {
     font-size: 2em;
+}
+
+header .logo-img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
 }
 
 header nav ul {
