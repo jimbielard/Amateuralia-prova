@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMATEURALIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>AMATEURALIA</h1>
+            <p>Comparteix objectes i serveis amb altres usuaris.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#login">Iniciar Sessió</a></li>
+                <li><a href="#register">Registra't</a></li>
+                <li><a href="#search">Cerca</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login">
+        <h2>Inicia Sessió</h2>
+        <form>
+            <label for="username">Nom d'usuari</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contrasenya</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Iniciar Sessió</button>
+        </form>
+    </section>
+
+    <section id="register">
+        <h2>Registra't</h2>
+        <form>
+            <label for="new-username">Nom d'usuari</label>
+            <input type="text" id="new-username" name="new-username" required>
+
+            <label for="new-password">Contrasenya</label>
+            <input type="password" id="new-password" name="new-password" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <section id="search">
+        <h2>Cerca Objectes i Serveis</h2>
+        <form>
+            <input type="text" id="search-query" placeholder="Cerca objectes o serveis...">
+            <button type="submit">Cercar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AMATEURALIA. Tots els drets reservats. | Data: 3 de juny de 2025</p>
+    </footer>
+
+</body>
+</html>
